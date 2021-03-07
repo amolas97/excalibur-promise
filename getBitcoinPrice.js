@@ -21,7 +21,7 @@ const getBitcoinPrize = async()=>{
 }
 
 const getBitcoinInARS = async() => {
-    const values = await Promise.all([getUSDinARS(), getBitcoinPrize]);
+    const values = await Promise.all([getUSDinARS(), getBitcoinPrize()]);
     return values[0] * values[1]
 }
 
