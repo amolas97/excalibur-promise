@@ -2,8 +2,9 @@
   "name": "clase-3-05-03",
   "version": "1.0.0",
   "description": "",
-  "main": "Excercise.js",
+  "main": "getBitcoinPrice.js",
   "scripts": {
+    "start": "node getBitcoinPrice.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Agustin Molas Demitrópulos",
