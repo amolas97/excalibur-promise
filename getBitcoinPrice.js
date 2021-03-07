@@ -1,5 +1,4 @@
 //Consigna: Se necesita informar el precio del bitcoin en peso argentino, considerando el precio de venta oficial
-const axios = require('axios');
 const {axiosRequest} = require('./utils/axios-utils.js')
 
 const getUSDinARS = async()=>{
