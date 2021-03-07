@@ -18,12 +18,13 @@ const axiosRequest = async ({ url, method = 'get', headers = '', data = '' }) =>
                 headers
             }).then((data) => data);
         }
-        return response;
     } catch (e) {
         response = {
             status: 400,
             msg: e.message
         };
+    }
+    finally{
         return response;
     }
 }
